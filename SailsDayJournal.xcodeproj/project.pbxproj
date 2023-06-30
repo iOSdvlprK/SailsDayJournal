@@ -13,6 +13,8 @@
 		D87DC3D72A4EEDD700BBE08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87DC3D52A4EEDD700BBE08D /* Main.storyboard */; };
 		D87DC3D92A4EEDDA00BBE08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87DC3D82A4EEDDA00BBE08D /* Assets.xcassets */; };
 		D87DC3DC2A4EEDDA00BBE08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87DC3DA2A4EEDDA00BBE08D /* LaunchScreen.storyboard */; };
+		D87DC3E52A4F115D00BBE08D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DC3E42A4F115D00BBE08D /* Post.swift */; };
+		D87DC3E82A4F11D200BBE08D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DC3E72A4F11D200BBE08D /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D87DC3D82A4EEDDA00BBE08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D87DC3DB2A4EEDDA00BBE08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D87DC3DD2A4EEDDA00BBE08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87DC3E42A4F115D00BBE08D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D87DC3E72A4F11D200BBE08D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		D87DC3CE2A4EEDD700BBE08D /* SailsDayJournal */ = {
 			isa = PBXGroup;
 			children = (
+				D87DC3E62A4F11BB00BBE08D /* Utility */,
+				D87DC3E32A4F114A00BBE08D /* Model */,
+				D87DC3E92A4F121A00BBE08D /* Controller */,
 				D87DC3CF2A4EEDD700BBE08D /* AppDelegate.swift */,
 				D87DC3D12A4EEDD700BBE08D /* SceneDelegate.swift */,
-				D87DC3D32A4EEDD700BBE08D /* ViewController.swift */,
 				D87DC3D52A4EEDD700BBE08D /* Main.storyboard */,
 				D87DC3D82A4EEDDA00BBE08D /* Assets.xcassets */,
 				D87DC3DA2A4EEDDA00BBE08D /* LaunchScreen.storyboard */,
 				D87DC3DD2A4EEDDA00BBE08D /* Info.plist */,
 			);
 			path = SailsDayJournal;
+			sourceTree = "<group>";
+		};
+		D87DC3E32A4F114A00BBE08D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D87DC3E42A4F115D00BBE08D /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D87DC3E62A4F11BB00BBE08D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D87DC3E72A4F11D200BBE08D /* Service.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D87DC3E92A4F121A00BBE08D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D87DC3D32A4EEDD700BBE08D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +170,9 @@
 			files = (
 				D87DC3D42A4EEDD700BBE08D /* ViewController.swift in Sources */,
 				D87DC3D02A4EEDD700BBE08D /* AppDelegate.swift in Sources */,
+				D87DC3E82A4F11D200BBE08D /* Service.swift in Sources */,
 				D87DC3D22A4EEDD700BBE08D /* SceneDelegate.swift in Sources */,
+				D87DC3E52A4F115D00BBE08D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
